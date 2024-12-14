@@ -4,7 +4,7 @@ const AllRouters = () => {
   return (
     <>
     <Routes>
-        <Route path="/" element={<MovieList title="MovieLab 🍿🎥" apiPath="movie/now_playing" />} />
+        <Route path="/movielab/" element={<MovieList title="MovieLab 🍿🎥" apiPath="movie/now_playing" />} />
         <Route path="movies/popular" element={<MovieList title="Popular" apiPath="movie/popular" />} />
         <Route path="movies/top" element={<MovieList title="Top Rated Movie" apiPath="movie/top_rated" />} />
         <Route path="movies/upcoming" element={<MovieList title="Upcoming" apiPath="movie/upcoming" />} />
